@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+	#git builds a new repository for the location. It's empty yet, probably just basic headers and pointers are in it. I had to do it because I was told to do it.

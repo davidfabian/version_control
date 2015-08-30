@@ -1,0 +1,14 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+	#easier to track down any difference. that's cool.
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	#see what change caused what difference. It can be tracked down, what went wrong. Or good.
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+	#pros are to avoid unintelliglibe savepoints and creating savepoints on changes what doesnt show much difference. Con is that it can be forgotten easily. I see myself hunting down problems and forgetting about saving, while i touch a bunch of different functions.
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	#files belonging together in a project can highly affect te whole project. Saving them on-by-one manually would mean a lot of work, while taking a snapshot of  the whole project might help a lot to track changes. Also, editing separate emails, or pictures doesnt require to be saved as a bundle. the goal of these systems are different.
+How can you use the commands git log and git diff to view the history of files?
+    #pretty hard. git bash is not intuitive at all. It's a disaster to find anything. copy-paste is another chore. Not good.	
+How might using version control make you more confident to make changes that could break something?
+	#It's really obvious that any bug introduced might show up later, but being able to test previous versions for one particular bug is way easier than hunting for one bug in a massive amount of code without any reference or help. This way to find the changes makes it super easy to narrow down the possible problems.
+Now that you have your workspace set up, what do you want to try using Git for?
+	#I couldn't follow the instructions. I'll use the original version. These lessons doesn't help at all. Random paths and files, which are not understandable. No. It's not working at all.
