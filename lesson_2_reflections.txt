@@ -1,2 +1,5 @@
 What happens when you initialize a repository? Why do you need to do it?
 	#git builds a new repository for the location. It's empty yet, probably just basic headers and pointers are in it. I had to do it because I was told to do it.
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	#can prepare the commit there. Decide what to include in a snapshot, and what not. Don't have to include irrelevant files.
+	#now i don't know what happened. the commit didn't go through, and it created a "-w" file. Probably notepad++ doesnt have a -w operator. and it created a file called that instead. Anyhow, the commit lost, and I had to make a nother one to sest it.
