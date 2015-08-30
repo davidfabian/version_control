@@ -21,4 +21,12 @@ How do the diagrams help you visualize the branch structure?
 	whem going back to an earlier commit, the warning message shows that any changes made there, wont make it to the later versions. Create a branch for them to follow that path. 
 	#git checkout -b new_branch_name
 
+#branch merging: needs three reference points. 
+ -the one where they branched.
+ -the two I want to merge
+#from these three, all the changes introduced, removed, etc. can be logically deducted and will result in a working code.
+#when two branches merged, they will become one, and will be named after the one chosen to be carried on. The other branch label will be deleted from the commits.
+#after the merger, the commits on two different branches will belong the surviving one listed in order of commit time.
+
+
 
