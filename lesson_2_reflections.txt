@@ -16,4 +16,9 @@ How can you use the staging area to make sure you have one commit per logical ch
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 	#when changes to be introduced which are not part of the main development. Trials, experimental features, etc.
 
+How do the diagrams help you visualize the branch structure?
+	#shows where branches started, which commmits are reachable from each other and which are not.
+	whem going back to an earlier commit, the warning message shows that any changes made there, wont make it to the later versions. Create a branch for them to follow that path. 
+	#git checkout -b new_branch_name
+
 
