@@ -4,10 +4,12 @@ How is the staging area different from the working directory and the repository?
 	#can prepare the commit there. Decide what to include in a snapshot, and what not. Don't have to include irrelevant files.
 	#now i don't know what happened. the commit didn't go through, and it created a "-w" file. Probably notepad++ doesnt have a -w operator. and it created a file called that instead. Anyhow, the commit lost, and I had to make a nother one to sest it.
 
-#git diff, compare working area and staging area.
-#git diff --staged compares staging area and last commit
-#git diff commit1 commit2 shows difference between two commmits.
+How can you use the staging area to make sure you have one commit per logical change?
+	#git diff, compare working area and staging area.	(it's good to see how much I've added to staging so far.)
+	#git diff --staged compares staging area and last commit (good to see how much total change prepared since the last commit)
+	#git diff commit1 commit2 shows difference between two commmits. (finding bugs, finding working versions)
 
-#git add adds modified file to staging area. Where you assemble files to be added to a commit. 
-#git status shows the contents of staging area.
-#git checkout master goes back to the latest commit.
+	#git add adds modified file to staging area. Where you assemble files to be added to a commit. 
+	#git status shows the contents of staging area.
+	#git checkout master goes back to the latest commit.
+
