@@ -33,4 +33,9 @@ What is the result of merging two branches together? Why do we represent it in t
 	#when two branches merged, they will become one, and will be named after the one chosen to be carried on. The other branch label will be deleted from the commits.
 	#after the merger, the commits on two different branches will belong the surviving one listed in order of commit time.
 	
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	#pros for automatic
+	# -implementing changes automatically where it is logical to, and skips where it's ambigous. This is way faster than handpicking all the changes and comparing them. Even with the knowledge of the logic behind that
+	# cons:
+	# -sorting out the ambigous conflicts can be obvious and can seem a lot of unnecessary handywork.
 
