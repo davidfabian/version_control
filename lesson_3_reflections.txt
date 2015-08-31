@@ -2,3 +2,7 @@ When would you want to use a remote repository rather than keeping all your work
   #Backing up work and/or when contributing with other(s)
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 	#I might be working on something which could be overwritten by an automatic pull.
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+	#Forking is cloning in the cloud. It's one way by default.
+	#cloning is making a copy of an existing repository. If both the source and destination is on github(or elsewhere in a cloud), we refer to it as forking.
+	#branches are labels attached to a set of commits.
