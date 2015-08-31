@@ -1,1 +1,2 @@
-Init.
+When would you want to use a remote repository rather than keeping all your work local?
+  #Backing up work and/or when contributing with other(s)
