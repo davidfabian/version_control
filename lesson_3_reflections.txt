@@ -9,3 +9,5 @@ Describe the differences between forks, clones, and branches. When would you use
 What is the benefit of having a copy of the last known state of the remote stored locally?
 	#it's easy to merge with the online repository after making changes to the code if it didn't change online. 
 	#if there was a change online, which haven't been synced to the local repository, than there will be unsynced changes compared to each other. For this, there is a the origin/xy branch locally, which contains the latest synced version. having these three, will make the merge relatively easier.
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+	#keeping four areas up to date and syncing them looks difficult compared to the complexity of the code we are dealing with. However in more complex projects, with more collaborators, syncing work, tasks, then mergeing would probably be way more work than taking car of a git/github project.
